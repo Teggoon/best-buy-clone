@@ -1,5 +1,10 @@
 # Best-Buy-Clone
 
+## Learning goals:
+- Redux
+- SASS
+- React/REST-API/Javascript experience hardening
+
 # Pages I'd like to clone
 * Home page
 * Search result page
