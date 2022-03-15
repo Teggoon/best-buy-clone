@@ -3,6 +3,7 @@
 ## Learning goals:
 - Redux
 - SASS
+- Webpack
 - React/REST-API/Javascript experience hardening
 
 # Pages I'd like to clone
