@@ -5,7 +5,10 @@ import ProductPage from './Pages/ProductPage/ProductPage';
 import CartPage from './Pages/CartPage/CartPage';
 import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
+import store from "./store";
 
+
+console.log(store.getState())
 function App() {
   return (
     <div className="App">
