@@ -2,6 +2,7 @@ import SearchBar from "./SearchBar/SearchBar";
 import Menu from "./Menu/Menu";
 import Cart from "./Cart/Cart";
 import logoImage from "../assets/images/logo.png"
+import Location from "./Location/Location";
 
 const Navbar = () => {
     return (
@@ -10,7 +11,7 @@ const Navbar = () => {
             <a href="/"><img src={logoImage} className="logo-image"/></a>
             <Menu/>
             <SearchBar />
-            <h2>SW Tucson</h2>
+            <Location />
             <Cart />
         </div>
     </div>);

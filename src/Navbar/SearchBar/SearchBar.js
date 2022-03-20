@@ -1,4 +1,5 @@
 import ReactSearchBox from "react-search-box";
+import magnifying_glass from "../../assets/images/magnifying_glass.png"
 
 const SearchBar = () => {
     return ( 
@@ -9,6 +10,8 @@ const SearchBar = () => {
         value="Doe"
         data={[]}
         callback={(record) => console.log(record)}
+        leftIcon={<img src={magnifying_glass} className="magnifying-glass-image"/>}
+        iconBoxSize="34px"
         />
         </div>
     </div> 

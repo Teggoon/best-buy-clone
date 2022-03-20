@@ -1,4 +1,9 @@
 {
+    navBar: {
+        menu: {
+            expanded: false
+        }
+    }
     cart: {
         items: [
             {
