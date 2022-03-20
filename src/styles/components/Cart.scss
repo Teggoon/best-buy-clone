@@ -1,0 +1,10 @@
+@import "../mixins/mixins";
+
+.cart {
+    margin-right: 20px;
+    margin-left: 80px;
+    
+    .cart-image {
+        height: 30px;
+    }
+}

@@ -1,0 +1,29 @@
+@import "../themes/variables";
+
+.navbar {
+
+    h2 {
+        font-size: 0.9;
+    }
+
+    .logo-image {
+        margin-left: 20px;
+        width: 65px;
+    }
+
+    .nav-element {
+        display: flex;
+        align-items: center;
+    }
+
+    background-color: $bb-blue;
+    color: white;
+    .top-row {
+        display: flex;
+        align-items: center;
+        .logo {
+            padding-left: 20px;
+            width: 68px;
+        }
+    }
+}

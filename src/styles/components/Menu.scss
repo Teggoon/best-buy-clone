@@ -1,0 +1,12 @@
+.menu {
+    &:hover {
+        cursor: pointer;
+    }
+    margin-left: 60px;
+    width: 96px;
+    margin-right: 60px;
+    .menu-image {
+        height: 27px;
+        width: 40px;
+    }
+}

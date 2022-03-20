@@ -1,5 +1,11 @@
-@import "./variables";
+@import "./themes/variables";
+@import "./components/NavBar.scss";
+@import "./components/SearchBar.scss";
+@import "./components/Menu.scss";
+@import "./components/Cart.scss";
+@import "./components/Location.scss";
 
-.App {
-    background-color: $bb-blue;
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
