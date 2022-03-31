@@ -4,7 +4,6 @@ import SearchResult from './Pages/SearchResult/SearchResult';
 import ProductPage from './Pages/ProductPage/ProductPage';
 import CartPage from './Pages/CartPage/CartPage';
 import Navbar from "./Navbar/Navbar";
-import Footer from "./Footer/Footer";
 
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
           <Route path="/product/:id" element={ProductPage}/>
           <Route path="/cart" element={CartPage}/>
         </Routes>
-        <Footer />
       </Router>
     </div>
   );

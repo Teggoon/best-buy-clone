@@ -2,29 +2,31 @@
 
 .navbar {
 
-    h2 {
-        font-size: 1.2rem;
+    display: flex;
+    h2.logo-title {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: $q-blue;
+        margin-left: 40px;
+        margin-right: 20px;
+        font-weight: 800;
+        font-family: "Quizlet-Font-Bold", sans-serif;
     }
 
-    .logo-image {
-        margin-left: 20px;
-        width: 65px;
+    h3 {
+        color: $q-darkslategray;
+        font-family: "Quizlet-Font", sans-serif;
+        font-weight: 100;
     }
 
-    .nav-element {
-        display: flex;
-        align-items: center;
-    }
-
-    background-color: $bb-blue;
+    background-color: white;
     color: white;
-    .top-row {
-        display: flex;
-        height: 75px;
-        align-items: center;
-        .logo {
-            padding-left: 20px;
-            width: 68px;
-        }
+
+    .nav-link {
+        text-decoration: none;
+    }
+
+    .nav-link:visited {
+        color: white;
     }
 }

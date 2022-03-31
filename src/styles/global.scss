@@ -1,12 +1,19 @@
 @import "./themes/variables";
 @import "./components/NavBar.scss";
-@import "./components/SearchBar.scss";
 @import "./components/Menu.scss";
-@import "./components/Cart.scss";
-@import "./components/Location.scss";
-@import "./components/Footer.scss";
+
+@font-face {
+    font-family: "Quizlet-Font-Bold";
+    src: url("../assets/font/HurmeGeometricSans1\ Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: "Quizlet-Font";
+    src: url("../assets/font/HurmeGeometricSans1\ SemiBold.otf") format("opentype");
+    font-weight: 100;
+}
 
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: $q-ghostwhite;
 }
