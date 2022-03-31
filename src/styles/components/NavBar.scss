@@ -3,6 +3,7 @@
 .navbar {
 
     display: flex;
+    align-items: center;
     h2.logo-title {
         font-size: 1.5rem;
         text-decoration: none;
@@ -14,8 +15,9 @@
     }
 
     h3 {
+        margin-left: 15px;
+        margin-right: 15px;
         color: $q-darkslategray;
-        font-family: "Quizlet-Font", sans-serif;
         font-weight: 100;
     }
 
@@ -28,5 +30,24 @@
 
     .nav-link:visited {
         color: white;
+    }
+
+    .navbar-button {
+        height: 33px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: 700;
+        font-size: 0.9em;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .create-button {
+        background-color: $q-blue;
+        color: white;
+    }
+    .upgrade-button {
+        background-color: $q-yellow;
+        color: $q-darkslategray;
     }
 }

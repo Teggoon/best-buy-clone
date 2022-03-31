@@ -1,6 +1,7 @@
 @import "./themes/variables";
 @import "./components/NavBar.scss";
 @import "./components/Menu.scss";
+@import "./themes/btn";
 
 @font-face {
     font-family: "Quizlet-Font-Bold";
@@ -14,6 +15,6 @@
 
 body {
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Quizlet-Font", sans-serif;
     background-color: $q-ghostwhite;
 }
