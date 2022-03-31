@@ -62,46 +62,4 @@
 .navbar .upgrade-button:hover {
   background-color: #e6b91c;
 }
-
-.menu {
-  margin-left: 60px;
-  width: 96px;
-  margin-right: 60px;
-}
-
-.menu:hover {
-  cursor: pointer;
-}
-
-.menu .menu-image {
-  height: 27px;
-  width: 40px;
-}
-
-.btn {
-  border: none;
-  border-radius: 4px;
-  font-family: "Quizlet-Font";
-}
-
-.btn:hover {
-  cursor: pointer;
-}
-
-@font-face {
-  font-family: "Quizlet-Font-Bold";
-  src: url("../assets/font/HurmeGeometricSans1 Bold.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "Quizlet-Font";
-  src: url("../assets/font/HurmeGeometricSans1 SemiBold.otf") format("opentype");
-  font-weight: 100;
-}
-
-body {
-  margin: 0px;
-  font-family: "Quizlet-Font", sans-serif;
-  background-color: #f6f7fb;
-}
-/*# sourceMappingURL=global.css.map */
+/*# sourceMappingURL=NavBar.css.map */

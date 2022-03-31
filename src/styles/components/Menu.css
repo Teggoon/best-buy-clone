@@ -1,0 +1,15 @@
+.menu {
+  margin-left: 60px;
+  width: 96px;
+  margin-right: 60px;
+}
+
+.menu:hover {
+  cursor: pointer;
+}
+
+.menu .menu-image {
+  height: 27px;
+  width: 40px;
+}
+/*# sourceMappingURL=Menu.css.map */
