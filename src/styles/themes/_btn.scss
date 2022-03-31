@@ -2,4 +2,7 @@
     border: none;
     border-radius: 4px;
     font-family: "Quizlet-Font";
+    &:hover {
+        cursor: pointer;
+    }
 }

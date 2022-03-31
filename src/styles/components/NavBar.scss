@@ -45,9 +45,17 @@
     .create-button {
         background-color: $q-blue;
         color: white;
+        &:hover {
+            background-color: mix(black,  $q-blue, 10%);
+        }
     }
     .upgrade-button {
+        margin-left: auto;
         background-color: $q-yellow;
         color: $q-darkslategray;
+
+        &:hover {
+            background-color: mix(black,  $q-yellow, 10%);
+        }
     }
 }
