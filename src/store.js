@@ -3,13 +3,16 @@ import reducer from "./reducer";
 
 const initialState = {
     navBar: {
-        menu: {
+        library: {
             expanded: false
         }
     },
-    cart: {
+    sets: {
         items: [],
         size: 0
+    },
+    homePageState: {
+        loaded: false
     }
 }
 

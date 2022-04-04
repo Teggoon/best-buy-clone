@@ -5,9 +5,6 @@ export default function reducer(state, action) {
         case actions.ADD_ITEM_TO_CART:
 
             break;
-        case actions.REMOVE_ITEM_FROM_CART:
-
-            break;
         default:
             return state;
     }
