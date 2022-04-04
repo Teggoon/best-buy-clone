@@ -7,10 +7,7 @@ const initialState = {
             expanded: false
         }
     },
-    sets: {
-        items: [],
-        size: 0
-    },
+    sets: [],
     homePageState: {
         loaded: false
     }

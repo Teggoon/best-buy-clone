@@ -2,8 +2,11 @@
   "name": "quizletclone",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3000",
   "dependencies": {
+    "@babel/runtime": "^7.17.8",
     "axios": "^0.26.1",
+    "cors": "^2.8.5",
     "express": "^4.17.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -39,9 +42,11 @@
   },
   "devDependencies": {
     "@babel/core": "^7.17.7",
+    "@babel/plugin-transform-runtime": "^7.17.0",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "babel-loader": "^8.2.3",
+    "babel-polyfill": "^6.26.0",
     "css-loader": "^6.7.1",
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",

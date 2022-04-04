@@ -1,3 +1,3 @@
 export default {
-    GET_SETS: "GET_SETS",
+    SET_USER_SETS: "SET_USER_SETS",
 }
